@@ -1,0 +1,111 @@
+﻿[EXPRESS] Express initialized
+[AWS] AWS service initialized
+Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='addresses';
+Executing (default): PRAGMA TABLE_INFO(`addresses`);
+Executing (default): PRAGMA foreign_key_list(`addresses`)
+Executing (default): PRAGMA INDEX_LIST(`addresses`)
+Executing (default): PRAGMA foreign_key_list(`addresses`)
+Executing (default): PRAGMA TABLE_INFO(`addresses`);
+Executing (default): PRAGMA INDEX_LIST(`addresses`)
+Executing (default): PRAGMA foreign_key_list(`addresses`)
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses_backup` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses_backup` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses`;
+Executing (default): DROP TABLE `addresses`;
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses_backup`;
+Executing (default): DROP TABLE `addresses_backup`;
+Executing (default): PRAGMA TABLE_INFO(`addresses`);
+Executing (default): PRAGMA INDEX_LIST(`addresses`)
+Executing (default): PRAGMA foreign_key_list(`addresses`)
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses_backup` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses_backup` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses`;
+Executing (default): DROP TABLE `addresses`;
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses_backup`;
+Executing (default): DROP TABLE `addresses_backup`;
+Executing (default): PRAGMA TABLE_INFO(`addresses`);
+Executing (default): PRAGMA INDEX_LIST(`addresses`)
+Executing (default): PRAGMA foreign_key_list(`addresses`)
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses_backup` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses_backup` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses`;
+Executing (default): DROP TABLE `addresses`;
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses_backup`;
+Executing (default): DROP TABLE `addresses_backup`;
+Executing (default): PRAGMA TABLE_INFO(`addresses`);
+Executing (default): PRAGMA INDEX_LIST(`addresses`)
+Executing (default): PRAGMA foreign_key_list(`addresses`)
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses_backup` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses_backup` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses`;
+Executing (default): DROP TABLE `addresses`;
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses_backup`;
+Executing (default): DROP TABLE `addresses_backup`;
+Executing (default): PRAGMA TABLE_INFO(`addresses`);
+Executing (default): PRAGMA INDEX_LIST(`addresses`)
+Executing (default): PRAGMA foreign_key_list(`addresses`)
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses_backup` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses_backup` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses`;
+Executing (default): DROP TABLE `addresses`;
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses_backup`;
+Executing (default): DROP TABLE `addresses_backup`;
+Executing (default): PRAGMA TABLE_INFO(`addresses`);
+Executing (default): PRAGMA INDEX_LIST(`addresses`)
+Executing (default): PRAGMA foreign_key_list(`addresses`)
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses_backup` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses_backup` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses`;
+Executing (default): DROP TABLE `addresses`;
+Executing (default): CREATE TABLE IF NOT EXISTS `addresses` (`id` INTEGER PRIMARY KEY, `city` VARCHAR(255), `state` VARCHAR(255), `neighborhood` VARCHAR(255), `country` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `addresses` SELECT `id`, `city`, `state`, `neighborhood`, `country`, `created_at`, `updated_at` FROM `addresses_backup`;
+Executing (default): DROP TABLE `addresses_backup`;
+Executing (default): PRAGMA INDEX_LIST(`addresses`)
+Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='expenses';
+Executing (default): PRAGMA TABLE_INFO(`expenses`);
+Executing (default): PRAGMA foreign_key_list(`expenses`)
+Executing (default): PRAGMA INDEX_LIST(`expenses`)
+Executing (default): PRAGMA foreign_key_list(`expenses`)
+Executing (default): PRAGMA TABLE_INFO(`expenses`);
+Executing (default): PRAGMA INDEX_LIST(`expenses`)
+Executing (default): PRAGMA foreign_key_list(`expenses`)
+Executing (default): CREATE TABLE IF NOT EXISTS `expenses_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255), `value` FLOAT, `currency` VARCHAR(255), `date` DATETIME, `created_by` UUID REFERENCES `users` (`id`), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL);
+Executing (default): INSERT INTO `expenses_backup` SELECT `id`, `name`, `value`, `currency`, `date`, `created_by`, `created_at`, `updated_at` FROM `expenses`;
+[SEQUELIZE] Error during database service initialization
+Error
+    at Database.<anonymous> (D:\Propscoh\express-sequelize-boilerplate-main\node_modules\sequelize\lib\dialects\sqlite\query.js:185:27)
+    at D:\Propscoh\express-sequelize-boilerplate-main\node_modules\sequelize\lib\dialects\sqlite\query.js:183:50
+    at new Promise (<anonymous>)
+    at Query.run (D:\Propscoh\express-sequelize-boilerplate-main\node_modules\sequelize\lib\dialects\sqlite\query.js:183:12)
+    at D:\Propscoh\express-sequelize-boilerplate-main\node_modules\sequelize\lib\sequelize.js:315:28
+    at async SQLiteQueryInterface.changeColumn (D:\Propscoh\express-sequelize-boilerplate-main\node_modules\sequelize\lib\dialects\sqlite\query-interface.js:43:7)
+    at async Expense.sync (D:\Propscoh\express-sequelize-boilerplate-main\node_modules\sequelize\lib\model.js:984:11)
+    at async Sequelize.sync (D:\Propscoh\express-sequelize-boilerplate-main\node_modules\sequelize\lib\sequelize.js:377:9)
+    at async Object.init (D:\Propscoh\express-sequelize-boilerplate-main\src\services\sequelize.service.js:28:7)
+    at async D:\Propscoh\express-sequelize-boilerplate-main\src\index.js:12:7 {
+  name: 'SequelizeUniqueConstraintError',
+  errors: [
+    ValidationErrorItem {
+      message: 'id must be unique',
+      type: 'unique violation',
+      path: 'id',
+      value: null,
+      origin: 'DB',
+      instance: null,
+      validatorKey: 'not_unique',
+      validatorName: null,
+      validatorArgs: []
+    }
+  ],
+  parent: [Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: expenses_backup.id] {
+    errno: 19,
+    code: 'SQLITE_CONSTRAINT',
+    sql: 'INSERT INTO `expenses_backup` SELECT `id`, `name`, `value`, `currency`, `date`, `created_by`, `created_at`, `updated_at` FROM `expenses`;'
+  },
+  original: [Error: SQLITE_CONSTRAINT: UNIQUE constraint failed: expenses_backup.id] {
+    errno: 19,
+    code: 'SQLITE_CONSTRAINT',
+    sql: 'INSERT INTO `expenses_backup` SELECT `id`, `name`, `value`, `currency`, `date`, `created_by`, `created_at`, `updated_at` FROM `expenses`;'
+  },
+  fields: [ 'id' ],
+  sql: 'INSERT INTO `expenses_backup` SELECT `id`, `name`, `value`, `currency`, `date`, `created_by`, `created_at`, `updated_at` FROM `expenses`;'
+}
